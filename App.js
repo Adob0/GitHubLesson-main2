@@ -1,5 +1,6 @@
 import { StyleSheet, SafeAreaView } from 'react-native';
 
+import FirstPage from './screens/FirstPage.js';
 
 export default function App() {
   let screen = <FirstPage />
