@@ -1,0 +1,5 @@
+const masterColor = {
+    color : 'light purple',
+    backgroundColor: 'yellow',
+    borderColor: 'red',
+}
