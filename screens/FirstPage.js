@@ -6,7 +6,7 @@ function MainPage(props) {
     return (
         <View style={styles.container}>
             <MainButton>Main Page</MainButton>
-            <MainButton>Second Page</MainButton>
+            <MainButton onPress={props.nextScreen}>Second Page</MainButton>
             <MainButton>Third Page</MainButton>
         </View>
     );
