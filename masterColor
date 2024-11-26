@@ -3,3 +3,5 @@ const masterColor = {
     backgroundColor: 'yellow',
     borderColor: 'red',
 }
+
+export default masterColor;
