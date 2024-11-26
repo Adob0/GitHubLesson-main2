@@ -2,10 +2,15 @@ import { StyleSheet, Text, View } from "react-native";
 
 function SecondPage(props) {
   return (
-    <Text>Second Page</Text>
+    <Text style={styles.Text}>[as]</Text>
   );
 }
 
 export default SecondPage;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  Text: {
+    fontSize: 20,
+    color: "blue"
+  }
+});

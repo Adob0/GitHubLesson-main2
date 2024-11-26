@@ -1,6 +1,5 @@
 import { Pressable, StyleSheet, Text } from "react-native";
 
-
 function MainButton(props) {
   return (
     <Pressable onPress = {props.onPress} style={styles.container}>
@@ -14,7 +13,7 @@ export default MainButton;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "white",
+    backgroundColor: "lightgray",
     padding: 24,
     margin: 16,
     borderColor: "black",
