@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View } from "react-native";
 import MainButton from "../components/MainButton";
 
-function SecondPage(props) {
+function SecondPage({goHome}) {
   return (
     <View>
       <Text>Second Page</Text>
-      <MainButton onClick={props.goHome}>Go home</MainButton>
+      <MainButton onClick={goHome}>Go home</MainButton>
     </View>
   );
 }

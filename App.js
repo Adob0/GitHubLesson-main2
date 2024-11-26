@@ -11,10 +11,11 @@ export default function App() {
     setPageNum(2);
   }
 
-  let screen = <FirstPage nextScreen={page}/>
+
+  let screen = <FirstPage nextScreen={page} />
 
   if (pageNum === 2) {
-    screen = <SecondPage />
+    screen = <SecondPage goHome={() => setPageNum(0)} />
   }
 
   return (
